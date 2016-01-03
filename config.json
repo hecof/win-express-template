@@ -1,0 +1,17 @@
+{
+    "server": {
+        "port": 3000,
+        "routes": [
+            {
+                "name": "index",
+                "path": "/",
+                "route": "./routes/index"
+            },
+            {
+                "name": "ping",
+                "path": "/ping",
+                "route": "./routes/ping"
+            }],
+        "pong": "Smile, the service is running"    
+    }
+}
